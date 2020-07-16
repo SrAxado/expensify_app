@@ -7,7 +7,7 @@ import HelpPage from '../components/HelpPage';
 import NotFoundPage from '../components/NotFoundPage';
 import Header from '../components/Header';
 
-const AppRouter = () => (
+const AppRouter = (props) => (
   <BrowserRouter>
     <div>
       <Header />
@@ -21,5 +21,6 @@ const AppRouter = () => (
     </div>
   </BrowserRouter>
 );
+
 
 export default AppRouter;
